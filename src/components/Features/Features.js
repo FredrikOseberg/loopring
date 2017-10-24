@@ -6,7 +6,14 @@ import featureData from '../../featureBoxData';
 const Features = () => {
 	const featureBoxes = featureData.map(feature => {
 		return (
-			<LoopringFeatureBox title={feature.name} text={feature.text} icon={feature.icon} color={feature.color} />
+			<LoopringFeatureBox
+				title={feature.name}
+				text={feature.text}
+				icon={feature.icon}
+				color={feature.color}
+				key={feature.icon}
+				excerpt={feature.excerpt}
+			/>
 		);
 	});
 
