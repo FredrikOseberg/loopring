@@ -1,0 +1,127 @@
+.person--card--order {
+	background-color: #3ecf8e;
+	color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	position: absolute;
+	width: 410px;
+	padding: 30px 0;
+	left: -50px;
+	right: 0;
+}
+
+.person--card--order--container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.person--card--order--header {
+	display: flex;
+	align-items: center;
+}
+
+.person--card-order--header--img .cc {
+	font-size: 2em;
+}
+
+.person--card--order--header--information {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 15px;
+}
+
+.person--card--order--header--information h2 {
+	font-size: 1.3rem;
+	text-align: left;
+	margin: 0;
+}
+
+.person--card--order--header--information p {
+	font-size: 0.8rem;
+	margin: 3px 0 0 0;
+}
+
+.person--card--order--header--border {
+	height: 1px;
+	width: 100%;
+	background-color: #fff;
+	margin: 20px 0;
+}
+
+.person--card--order--header--transaction {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.person--card--order--header--transaction .cc {
+	color: #fff;
+	font-size: 1.2rem;
+}
+
+.person--card--order--status--container {
+	display: flex;
+	flex-direction: column;
+}
+
+.person--card--order--status--information {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.person--card--order--status--information .material-icons {
+	font-size: 2em;
+}
+
+.person--card--order--status {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.person--card--order--status h3 {
+	margin: 0;
+	text-align: left;
+	font-size: 1rem;
+}
+
+.person--card--order--status p {
+	margin: 4px 0 0 0;
+}
+
+.person--card--order--status .material-icons {
+	font-size: 0.7rem;
+	margin-right: 8px;
+}
+
+.person--card--order--status--progress {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.person--card--order--status--progress p {
+	width: auto;
+	background: rgba(0, 0, 50, 0.08);
+	margin: 0;
+	padding: 8px 15px;
+	border-radius: 50px;
+	text-align: center;
+	width: 30%;
+}
+
+.person--card--order--progress--bar {
+	margin-top: 15px;
+	height: 10px;
+	border-radius: 50px;
+	border: 1px solid #fff;
+}
+
+.person--card--order--progress--bar--progress {
+	width: 70%;
+	background-color: #fff;
+	height: 100%;
+}

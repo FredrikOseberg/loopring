@@ -43,13 +43,13 @@ class Cover extends Component {
 									<div className={dropdownClasses}>
 										<ul>
 											<li>
-												Whitepaper (Chinese)<i className="material-icons">arrow_down</i>
+												Whitepaper (Chinese)<i className="material-icons">get_app</i>
 											</li>
 											<li>
-												Whitepaper<i className="material-icons">arrow_down</i>
+												Whitepaper<i className="material-icons">get_app</i>
 											</li>
 											<li>
-												Introduction (Chinese)<i className="material-icons">arrow_down</i>
+												Introduction (Chinese)<i className="material-icons">get_app</i>
 											</li>
 										</ul>
 									</div>

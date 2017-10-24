@@ -55,7 +55,6 @@
 	color: #888;
 	right: 0;
 	border-radius: 3px;
-	padding: 30px;
 	visibility: hidden;
 	opacity: 0;
 }
@@ -65,6 +64,19 @@
 	margin: 0;
 	padding: 0;
 	width: 300px;
+}
+
+.loopring--landing--information--dropdown ul li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 15px;
+	cursor: pointer;
+}
+
+.loopring--landing--information--dropdown ul li:hover {
+	background-color: #183790;
+	color: #fff;
 }
 
 .loopring--landing--information--whitepaper p {

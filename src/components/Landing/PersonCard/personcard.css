@@ -1,0 +1,32 @@
+.person--card {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	background-color: #fff;
+	max-width: 300px;
+	position: relative;
+}
+
+.person--card--header img {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	position: absolute;
+	top: -25px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.person--card--header {
+	padding-top: 35px;
+}
+
+.person--card--header h2 {
+	color: #585858;
+	font-size: 1.5rem;
+}
+
+.person--card--wallet {
+	margin-top: 350px;
+}

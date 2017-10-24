@@ -31,7 +31,7 @@ const data = [
 		name: 'Cross-chain protocol',
 		text:
 			'Loopring was designed to be blockchain agnostic. As long as a blockchain has smart-contract support, Loopring can be implemented, and all ERC20-like tokens on such a blockchain can be traded under Loopring.',
-		icon: 'swap_vert',
+		icon: 'shuffle',
 		color: 'white'
 	}
 ];

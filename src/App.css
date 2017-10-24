@@ -1,3 +1,6 @@
+@import './cc/cryptocoins.css';
+@import './cc/cryptocoins-colors.css';
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,25 @@
+.landing--hiw {
+	height: 100vh;
+	padding: 60px 0;
+}
+
+.landing--hiw--container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.hiw--icon {
+	color: #fff;
+}
+
+.landing--hiw--header {
+	text-align: center;
+}
+
+.landing--hiw--header h1 {
+	color: #585858;
+}
+
+.landing--hiw--inner--container {
+	padding-top: 60px;
+}
