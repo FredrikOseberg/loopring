@@ -1,0 +1,17 @@
+.loopring--header {
+	height: 50px;
+	padding: 15px 0;
+}
+
+.loopring--header--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.loopring--header--container img {
+	height: 50px;
+	width: 50px;
+}

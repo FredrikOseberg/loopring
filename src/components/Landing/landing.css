@@ -1,0 +1,10 @@
+.loopring--landing {
+	height: 100vh;
+}
+
+.loopring--landing--cover {
+	background: linear-gradient(0deg, rgba(255, 196, 2, 0.8), rgba(97, 75, 2, 0.8)), url(../../img/loopring.jpeg);
+	min-height: 100vh;
+	color: #fff;
+	background-size: cover;
+}
