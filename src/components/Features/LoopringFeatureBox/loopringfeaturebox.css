@@ -1,0 +1,43 @@
+.loopring--featurebox {
+	padding: 20px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 15px;
+	max-width: 300px;
+	min-height: 300px;
+	margin: 10px;
+	line-height: 1.4;
+	text-align: center;
+	flex-basis: 30%;
+}
+
+.loopring--featurebox .material-icons {
+	font-size: 2.7em;
+}
+
+.loopring--featurebox--title {
+	font-size: 1rem;
+}
+
+.loopring--featurebox--green {
+	background-color: #3ecf8e;
+}
+
+.loopring--featurebox--purple {
+	background-color: #6772e5;
+}
+
+.loopring--featurebox--light--blue {
+	background-color: #2371ff;
+}
+
+.loopring--featurebox--pink {
+	background-color: #a63dad;
+}
+
+.loopring--featurebox--white {
+	background-color: #fff;
+	color: #888;
+}

@@ -3,7 +3,7 @@
 }
 
 .loopring--landing--cover {
-	background: linear-gradient(0deg, rgba(255, 196, 2, 0.8), rgba(97, 75, 2, 0.8)), url(../../img/loopring.jpeg);
+	background: linear-gradient(90deg, rgba(24, 55, 157, 0.9), rgba(69, 84, 255, 0.9)), url(../../img/loopring.jpeg);
 	min-height: 100vh;
 	color: #fff;
 	background-size: cover;

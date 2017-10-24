@@ -1,0 +1,38 @@
+.loopring--features {
+	background-color: #18379d;
+	background-repeat: repeat;
+	color: #fff;
+	padding: 60px 0;
+}
+
+.loopring--container {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loopring--features--description--icon {
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	background-color: #1f46bf;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+.loopring--features--description {
+	text-align: center;
+}
+
+.loopring--features--boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 30px;
+}
