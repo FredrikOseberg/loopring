@@ -15,7 +15,9 @@ const Features = () => {
 			<div className="loopring--container">
 				<div className="loopring--features--description">
 					<div className="loopring--features--description--icon">
-						<i className="fa fa-star" aria-hidden="true" />
+						<i className="material-icons" aria-hidden="true">
+							star
+						</i>
 					</div>
 					<h1>Loopring Features</h1>
 				</div>

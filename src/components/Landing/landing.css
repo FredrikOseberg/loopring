@@ -2,9 +2,4 @@
 	height: 100vh;
 }
 
-.loopring--landing--cover {
-	background: linear-gradient(90deg, rgba(24, 55, 157, 0.9), rgba(69, 84, 255, 0.9)), url(../../img/loopring.jpeg);
-	min-height: 100vh;
-	color: #fff;
-	background-size: cover;
-}
+
