@@ -1,0 +1,17 @@
+.loopring--team--contributors {
+	background-color: #ededed;
+	padding: 60px 0;
+}
+
+.loopring--team--contributors h1 {
+	text-align: center;
+}
+
+.loopring--team--contributors--container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 40px;
+	justify-content: center;
+}

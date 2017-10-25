@@ -1,10 +1,16 @@
 .loopring--header {
-	height: 50px;
-	padding: 15px 0;
+	padding: 3px 0;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	color: #fff;
+	z-index: 999;
+	transition: all 0.4s ease;
+}
+
+.loopring--header--scrolling {
+	background-color: #183790;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .loopring--header--container {
@@ -18,4 +24,28 @@
 .loopring--header--container img {
 	height: 50px;
 	width: 50px;
+}
+
+.loopring--header--navigation--list {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+}
+
+.loopring--header--navigation--list li {
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+.loopring--header--navigation--button {
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	border-radius: 3px;
+	color: #000;
+	height: 40px;
+	width: 100px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

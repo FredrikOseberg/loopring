@@ -15,18 +15,6 @@
 	flex-direction: column;
 }
 
-.loopring--features--description--icon {
-	width: 70px;
-	height: 70px;
-	border-radius: 100%;
-	background-color: #1f46bf;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	font-size: 1.5rem;
-}
-
 .loopring--features--description {
 	text-align: center;
 }

@@ -1,17 +1,14 @@
 import React from 'react';
 import loopring from '../../../img/logo.png';
 import OrderDetails from '../OrderDetails/OrderDetails';
+import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import './howitworks.css';
 
 const HowItWorks = () => (
 	<div className="landing--hiw">
 		<div className="landing--hiw--container">
 			<div className="landing--hiw--header">
-				<div className="loopring--features--description--icon">
-					<i className="material-icons hiw--icon" aria-hidden="true">
-						settings
-					</i>
-				</div>
+				<HeaderIcon icon="settings" />
 				<h1>How It Works</h1>
 				<div className="landing--hiw--inner--container">
 					<div className="landing--hiw--connecting--border" />
@@ -69,7 +66,7 @@ const HowItWorks = () => (
 							</div>
 						</div>
 						<p>
-							Once the exchange is done. The funds are released from the contract and withdrawn/sent to
+							Once the exchange is done, the funds are released from the contract and withdrawn/sent to
 							the respective parties.
 						</p>
 					</div>

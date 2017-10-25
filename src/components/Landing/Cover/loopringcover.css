@@ -117,18 +117,11 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	max-width: 400px;
 }
 
 .loopring--landing--information--box h2 {
 	color: #585858;
-}
-
-.loopring--landing--flash {
-	color: #d6c326;
-	font-size: 2rem;
-	border: 1px solid #888;
-	padding: 20px;
-	border-radius: 100%;
 }
 
 .loopring--landing--information--box--list {
@@ -155,7 +148,7 @@
 	font-size: 1.3rem;
 	border-radius: 3px;
 	color: #fff;
-	background-color: #4dafa6;
+	background-color: #3fcf8e;
 	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 

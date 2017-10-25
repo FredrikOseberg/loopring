@@ -7,16 +7,13 @@ import jing from '../../../img/backers/jing.png';
 import logo3 from '../../../img/backers/logo3.png';
 import neo_en from '../../../img/backers/neo_en.png';
 import qtum_en from '../../../img/backers/qtum_en.png';
+import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import './backers.css';
 
 const Backers = () => (
 	<div className="loopring--backers">
 		<div className="loopring--backers--header">
-			<div className="loopring--features--description--icon">
-				<i className="material-icons" aria-hidden="true">
-					check
-				</i>
-			</div>
+			<HeaderIcon icon="check" />
 			<h1>Backers</h1>
 			<div className="loopring--backers--section--one">
 				<img src={capital} alt="Backer" className="loopring--backers--img" />

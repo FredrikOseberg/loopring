@@ -1,5 +1,6 @@
 import React from 'react';
 import LoopringFeatureBox from './LoopringFeatureBox/LoopringFeatureBox';
+import HeaderIcon from '../Misc/HeaderIcon/HeaderIcon';
 import './loopringfeatures.css';
 import featureData from '../../featureBoxData';
 
@@ -21,11 +22,7 @@ const Features = () => {
 		<div className="loopring--features">
 			<div className="loopring--container">
 				<div className="loopring--features--description">
-					<div className="loopring--features--description--icon">
-						<i className="material-icons" aria-hidden="true">
-							star
-						</i>
-					</div>
+					<HeaderIcon icon={'star'} />
 					<h1>Loopring Features</h1>
 				</div>
 				<div className="loopring--features--boxes">{featureBoxes}</div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import './loopringcover.css';
 
 class Cover extends Component {
@@ -58,7 +59,7 @@ class Cover extends Component {
 						</div>
 						<div className="loopring--landing--information--box--container">
 							<div className="loopring--landing--information--box">
-								<i className="material-icons loopring--landing--flash">flash_on</i>
+								<HeaderIcon icon="flash_on" />
 								<h2>Quick Info</h2>
 								<ul className="loopring--landing--information--box--list">
 									<li>

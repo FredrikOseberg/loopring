@@ -1,0 +1,97 @@
+.person--card {
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 20, 0.1), 0 4px 8px rgba(0, 0, 80, 0.1);
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+	position: relative;
+	flex: 1;
+	border-radius: 3px;
+	padding: 60px 0;
+	color: #888;
+}
+
+.person--card--container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.person--card--header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.person--card--header img {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	box-shadow: 0 10px 20px rgba(0, 0, 80, 0.19), 0 6px 6px rgba(0, 0, 80, 0.23);
+	position: absolute;
+	top: -49px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+.person--card--header h2 {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #000;
+	margin-bottom: 8px;
+}
+
+.person--card--header--information {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.person--card--header--email {
+	margin-top: 0;
+}
+
+.person--card--header--information--position {
+	padding: 20px 10px;
+	background-color: #cfe6f9;
+	width: 100px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.person--card--work--experience {
+	display: flex;
+	flex-direction: column;
+}
+
+.person--card--work--experience--header {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	justify-content: center;
+}
+
+.person--card--work--experience--header .material-icons {
+	margin-right: 10px;
+	color: #585858;
+}
+
+.person--card--work--experience--header h4 {
+	color: #585858;
+}
+
+.person--card--work--experience--list {
+	margin-top: 0;
+}
+
+.person--card--work--experience--expand {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	border: 1px solid #888;
+	cursor: pointer;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

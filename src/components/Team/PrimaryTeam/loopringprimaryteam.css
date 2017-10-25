@@ -1,0 +1,12 @@
+.loopring--primary--team {
+	padding: 60px 0;
+}
+
+.loopring--primary--team--header {
+	text-align: center;
+}
+
+.loopring--primary--team--container {
+	display: flex;
+	margin-top: 65px;
+}

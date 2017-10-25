@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 
 const Landing = () => (
 	<div className="loopring--landing">
-		<Header />
+		<Header landing={true} />
 		<Cover />
 		<HowItWorks />
 		<Features />
