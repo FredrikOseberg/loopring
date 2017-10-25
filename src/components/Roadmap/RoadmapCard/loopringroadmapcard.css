@@ -1,0 +1,93 @@
+.loopring--roadmap--card {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 10px 20px rgba(0, 0, 20, 0.1), 0 4px 8px rgba(0, 0, 80, 0.1);
+	width: 30%;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px 0 0 0;
+}
+
+.loopring--roadmap--card--container {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.loopring--roadmap--card--header .material-icons {
+	font-size: 3rem;
+	color: #585858;
+}
+
+.loopring--roadmap--card--border {
+	height: 1px;
+	width: 100%;
+	background-color: #ededed;
+	margin: 20px 0;
+}
+
+.loopring--roadmap--card--information h2 {
+	font-size: 1rem;
+}
+
+.loopring--roadmap--card--information p {
+	color: #888;
+	padding: 15px;
+	background: rgba(0, 0, 50, 0.08);
+	border-radius: 50px;
+	text-align: center;
+	margin: 40px 20px;
+}
+
+.loopring--roadmap--status {
+	width: 100%;
+	background-color: #3ecf8e;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding-bottom: 15px;
+}
+
+.loopring--roadmap--status--not--complete {
+	background-color: #d87630;
+}
+
+.loopring--roadmap--status--container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.loopring--roadmap--status--header {
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.loopring--roadmap--status--header .material-icons {
+	margin-right: 10px;
+}
+
+.loopring--roadmap--status--information {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.loopring--roadmap--status--information p {
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+.loopring--roadmap--status--information--icon {
+	border: 1px solid #fff;
+	border-radius: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}

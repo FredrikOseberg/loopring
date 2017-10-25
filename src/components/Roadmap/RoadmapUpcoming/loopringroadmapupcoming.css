@@ -1,0 +1,21 @@
+.loopring--roadmap--upcoming {
+	background-color: #ededed;
+	padding: 100px 0 60px 0;
+}
+
+.loopring--roadmap--upcoming--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.loopring--roadmap--upcoming--container h1 {
+	margin: 40px auto;
+}
+
+.loopring--roadmap--upcoming--inner--container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}

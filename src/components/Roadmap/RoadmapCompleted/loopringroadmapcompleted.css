@@ -1,0 +1,19 @@
+.loopring--roadmap--completed {
+	background-color: #ededed;
+}
+
+.loopring--roadmap--completed--container {
+	width: 80%;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+}
+
+.loopring--roadmap--completed--container h1 {
+	margin: 40px auto;
+}
+
+.loopring--roadmap--completed--inner--container {
+	display: flex;
+	flex-wrap: wrap;
+}
