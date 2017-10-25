@@ -47,6 +47,14 @@
 	justify-content: center;
 }
 
+.simple--person--card--work--experience--header h4 {
+	margin-bottom: 8px;
+}
+
+.simple--person--card--work--experience--list {
+	margin: 0;
+}
+
 .simple--person--card--work--experience--header .material-icons {
 	margin-right: 10px;
 }

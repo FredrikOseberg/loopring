@@ -51,7 +51,9 @@ class Header extends Component {
 								<li>Team</li>
 							</Link>
 							<li>FAQ</li>
-							<li>Roadmap</li>
+							<Link to="/roadmap">
+								<li>Roadmap</li>
+							</Link>
 							<li className="loopring--header--navigation--button">Wallet</li>
 						</ul>
 					</div>

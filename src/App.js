@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Landing from './components/Landing/Landing';
 import Team from './components/Team/Team';
+import Roadmap from './components/Roadmap/Roadmap';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route path="/team" component={Team} />
+            <Route path="/roadmap" component={Roadmap} />
           </Switch>
         </BrowserRouter>
       </div>

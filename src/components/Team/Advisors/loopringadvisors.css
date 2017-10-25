@@ -1,0 +1,31 @@
+.loopring--advisors {
+	padding-top: 60px;
+}
+
+.loopring--advisors h1 {
+	text-align: center;
+}
+
+.loopring--advisors--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	padding: 60px 0;
+}
+
+.loopring--secondary--advisors--container {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ededed;
+	padding-bottom: 60px;
+}
+
+.loopring--secondary--advisors--inner--container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}

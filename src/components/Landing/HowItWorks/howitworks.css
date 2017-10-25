@@ -1,5 +1,6 @@
 .landing--hiw {
 	padding: 60px 0;
+	background-color: #fdfdfd;
 }
 
 .landing--hiw--container {
@@ -63,6 +64,10 @@
 .landing--hiw--steps--header {
 	display: flex;
 	align-items: center;
+}
+
+.landing--hiw--steps p {
+	color: #888;
 }
 
 .landing--hiw--steps--step {
