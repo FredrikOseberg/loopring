@@ -13,12 +13,13 @@ const PrimaryTeam = () => {
 				email={teamMember.email}
 				position={teamMember.position}
 				experiences={teamMember.experience}
+				key={teamMember.id}
 			/>
 		);
 	});
 	return (
-		<div className="loopring--team--container">
-			<div className="loopring--primary--team">
+		<div className="loopring--primary--team">
+			<div className="loopring--team--container">
 				<div className="loopring--primary--team--header">
 					<HeaderIcon icon="people" />
 					<h1>Team</h1>

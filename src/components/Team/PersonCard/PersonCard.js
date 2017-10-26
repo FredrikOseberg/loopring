@@ -47,8 +47,9 @@ class PersonCard extends Component {
 							<div className="person--card--header--information--position">{this.props.position}</div>
 						</div>
 					</div>
-
-					<div className="person--card--work--experience">
+				</div>
+				<div className="person--card--work--experience">
+					<div className="person--card--work--experience--container">
 						<div className="person--card--work--experience--header">
 							<i className="material-icons">work</i>
 							<h4>Work Experience</h4>
@@ -58,8 +59,8 @@ class PersonCard extends Component {
 								if (index < cap) return <li key={experience.id}>{experience.job}</li>;
 							})}
 						</ul>
+						{expandButton}
 					</div>
-					{expandButton}
 				</div>
 			</div>
 		);

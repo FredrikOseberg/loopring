@@ -23,7 +23,7 @@ const Advisors = props => {
 				name={advisor.name}
 				img={advisor.img}
 				credentials={advisor.credentials}
-				key={advisor.key}
+				key={advisor.id}
 			/>
 		);
 	});

@@ -1,5 +1,5 @@
 .loopring--features {
-	background: linear-gradient(rgba(24, 55, 157, 0.45), rgba(24, 55, 157, 0.45)), url('../../img/repeatingsquares.png');
+	background: linear-gradient(rgba(24, 55, 255, 0.45), rgba(24, 55, 255, 0.45)), url('../../img/repeatingsquares.png');
 	background-repeat: repeat;
 	filter: hue-rotate(360deg);
 	color: #fff;

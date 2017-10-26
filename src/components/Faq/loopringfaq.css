@@ -1,0 +1,25 @@
+.loopring--faq {
+	padding-top: 78px;
+}
+
+.loopring--faq--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 0;
+}
+
+.loopring--faq--inner--container {
+	display: flex;
+	flex-direction: column;
+}
+
+.loopring--faq--inner--container .loopring--faq--question:first-child {
+	border-top: none;
+}
+
+.loopring--faq--inner--container .loopring--faq--question:last-child {
+	border-bottom: none;
+}

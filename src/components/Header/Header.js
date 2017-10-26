@@ -50,7 +50,9 @@ class Header extends Component {
 							<Link to="/team">
 								<li>Team</li>
 							</Link>
-							<li>FAQ</li>
+							<Link to="/faq">
+								<li>FAQ</li>
+							</Link>
 							<Link to="/roadmap">
 								<li>Roadmap</li>
 							</Link>

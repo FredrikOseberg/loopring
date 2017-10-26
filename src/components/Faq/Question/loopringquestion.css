@@ -1,0 +1,40 @@
+.loopring--faq--question {
+	max-width: 600px;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	padding: 10px 0;
+}
+
+.loopring--faq--question--header {
+	display: flex;
+	align-items: center;
+}
+
+.loopring--faq--question--header h2 {
+	font-size: 1.1rem;
+}
+
+.loopring--faq--question--icon {
+	margin-right: 10px;
+	color: #29b6f6;
+	cursor: pointer;
+}
+
+.loopring--faq--answer {
+	visibility: hidden;
+	position: fixed;
+	line-height: 1.5;
+}
+
+.loopring--faq--answer {
+	color: #888;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.static {
+	position: static;
+}
+
