@@ -1,6 +1,5 @@
 import React from 'react';
 import PersonCard from '../PersonCard/PersonCard';
-import SimplePersonCard from '../Contributors/SimplePersonCard/SimplePersonCard';
 import PersonListItem from '../PersonListItem/PersonListItem';
 import primaryAdvisorData from '../../../primaryAdvisorData';
 import secondaryAdvisorData from '../../../secondaryAdvisorData';

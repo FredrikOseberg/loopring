@@ -1,7 +1,6 @@
 import React from 'react';
 import contributorData from '../../../contributorData';
 import PersonListItem from '../PersonListItem/PersonListItem';
-import SimplePersonCard from './SimplePersonCard/SimplePersonCard';
 import './loopringcontributors.css';
 
 const Contributors = props => {
