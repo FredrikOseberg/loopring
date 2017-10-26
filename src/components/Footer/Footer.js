@@ -17,7 +17,7 @@ const Footer = () => (
 			</div>
 			<div className="footer--telegram">
 				<div className="footer--telegram--header">
-					<i class="fa fa-paper-plane" aria-hidden="true" />
+					<i className="fa fa-paper-plane" aria-hidden="true" />
 					<h4>Telegram</h4>
 				</div>
 				<ul>
