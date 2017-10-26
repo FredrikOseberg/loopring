@@ -15,3 +15,20 @@
 	padding-top: 40px;
 	justify-content: center;
 }
+
+.loopring--team--contributors--list {
+	background-color: #fff;
+	list-style-type: none;
+	box-shadow: 0 10px 20px rgba(0, 0, 20, 0.1), 0 4px 8px rgba(0, 0, 80, 0.1);
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+	max-width: 600px;
+	width: 70%;
+}
+
+@media (max-width: 600px) {
+	.loopring--team--contributors--list {
+		width: 100%;
+	}
+}

@@ -1,5 +1,6 @@
 .loopring--advisors {
 	padding-top: 60px;
+	background-color: #f7f7f7;
 }
 
 .loopring--advisors h1 {
@@ -24,6 +25,10 @@
 	padding-bottom: 60px;
 }
 
+.loopring--secondary--advisors--container h1 {
+	margin-bottom: 40px;
+}
+
 .loopring--secondary--advisors--inner--container {
 	display: flex;
 	flex-wrap: wrap;
@@ -32,8 +37,25 @@
 	margin: 0 auto;
 }
 
+.loopring--secondary--advisors--list {
+	background-color: #fff;
+	list-style-type: none;
+	box-shadow: 0 10px 20px rgba(0, 0, 20, 0.1), 0 4px 8px rgba(0, 0, 80, 0.1);
+	border-radius: 3px;
+	margin: 0;
+	padding: 0;
+	max-width: 600px;
+	width: 70%;
+}
+
 @media (max-width: 960px) {
 	.loopring--advisors--container {
 		padding-bottom: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.loopring--secondary--advisors--list {
+		width: 100%;
 	}
 }
