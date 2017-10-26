@@ -12,20 +12,22 @@ import './backers.css';
 
 const Backers = () => (
 	<div className="loopring--backers">
-		<div className="loopring--backers--header">
-			<HeaderIcon icon="check" />
-			<h1>Backers</h1>
-			<div className="loopring--backers--section--one">
-				<img src={capital} alt="Backer" className="loopring--backers--img" />
-				<img src={fintech} alt="Fintech" className="loopring--backers--img" />
-				<img src={ico365} alt="ico365" className="loopring--backers--img" />
-				<img src={icorace} alt="icorace" className="loopring--backers--img" />
-			</div>
-			<div className="loopring--backers--section--two">
-				<img src={jing} alt="Backer" className="loopring--backers--img" />
-				<img src={logo3} alt="Backer" className="loopring--backers--img" />
-				<img src={neo_en} alt="Neo" className="loopring--backers--img" />
-				<img src={qtum_en} alt="Qtum" className="loopring--backers--img" />
+		<div className="loopring--backers--container">
+			<div className="loopring--backers--header">
+				<HeaderIcon icon="check" />
+				<h1>Backers</h1>
+				<div className="loopring--backers--section--one">
+					<img src={capital} alt="Backer" className="loopring--backers--img" />
+					<img src={fintech} alt="Fintech" className="loopring--backers--img" />
+					<img src={ico365} alt="ico365" className="loopring--backers--img" />
+					<img src={icorace} alt="icorace" className="loopring--backers--img" />
+				</div>
+				<div className="loopring--backers--section--two">
+					<img src={jing} alt="Backer" className="loopring--backers--img" />
+					<img src={logo3} alt="Backer" className="loopring--backers--img" />
+					<img src={neo_en} alt="Neo" className="loopring--backers--img" />
+					<img src={qtum_en} alt="Qtum" className="loopring--backers--img" />
+				</div>
 			</div>
 		</div>
 	</div>

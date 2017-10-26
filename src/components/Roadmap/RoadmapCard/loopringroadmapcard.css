@@ -99,3 +99,15 @@
 	align-items: center;
 	color: #fff;
 }
+
+@media (max-width: 960px) {
+	.loopring--roadmap--card {
+		width: 45%;
+	}
+}
+
+@media (max-width: 600px) {
+	.loopring--roadmap--card {
+		width: 100%;
+	}
+}

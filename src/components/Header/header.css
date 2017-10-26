@@ -38,13 +38,11 @@
 }
 
 .loopring--header--navigation--button {
-	background-color: #fff;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	border: 2px solid #fff;
 	border-radius: 3px;
-	color: #000;
+	color: #fff;
 	height: 40px;
 	width: 100px;
-	border: none;
 	display: flex;
 	align-items: center;
 	justify-content: center;

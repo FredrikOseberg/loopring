@@ -18,7 +18,8 @@ const RoadmapCompleted = () => {
 					key={milestone.id}
 				/>
 			);
-		});
+		})
+		.reverse();
 
 	return (
 		<div className="loopring--roadmap--completed">

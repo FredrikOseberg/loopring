@@ -1,4 +1,97 @@
 .footer {
-	height: 100px;
-	background-color: #303030;
+	background-color: #455fec;
+	color: #fff;
+	padding: 30px 0;
+}
+
+.footer--container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer--logo {
+	display: flex;
+	align-items: center;
+}
+
+.footer--logo h1 {
+	margin: 0;
+}
+
+.footer--logo img {
+	height: 40px;
+	margin-right: 10px;
+}
+
+.footer--rights {
+	display: flex;
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+.footer--rights .material-icons {
+	font-size: 1rem;
+	margin-right: 5px;
+}
+
+.footer--media--container {
+	display: flex;
+}
+
+.footer--media h3 {
+	margin: 0;
+	font-size: 1.1rem;
+}
+
+.footer--media h4 {
+	font-size: 0.9rem;
+	margin: 20px 0;
+}
+
+.footer--telegram {
+	padding-right: 20px;
+}
+
+.footer--telegram--header {
+	display: flex;
+	align-items: center;
+}
+
+.footer--telegram--header .fa {
+	margin-right: 5px;
+	font-size: 1.2rem;
+}
+
+.footer--telegram ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer--telegram ul li {
+	padding: 3px 0;
+}
+
+.footer--social--group--one,
+.footer--social--group--two {
+	font-size: 1.5rem;
+	margin: 15px 0;
+}
+
+.footer--social--group--one a,
+.footer--social--group--two a {
+	margin: 15px;
+}
+
+.footer--social--group--one a:first-child,
+.footer--social--group--two a:first-child {
+	margin-left: 0;
+}
+
+@media (max-width: 840px) {
+	.footer--container {
+		flex-direction: column;
+	}
 }

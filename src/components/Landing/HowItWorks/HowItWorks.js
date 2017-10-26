@@ -36,7 +36,7 @@ const HowItWorks = () => (
 						color={'blue'}
 					/>
 				</div>
-				<div className="landing--hiw--inner--container">
+				<div className="landing--hiw--steps--container">
 					<div className="landing--hiw--steps">
 						<div className="landing--hiw--steps--header">
 							<div className="landing--hiw--steps--step">1</div>

@@ -13,6 +13,7 @@
 
 .loopring--news--card img {
 	height: 50px;
+	max-width: 100%;
 }
 
 .loopring--news--card--container {
@@ -42,4 +43,16 @@
 	border-radius: 50px;
 	width: 150px;
 	text-align: center;
+}
+
+@media (max-width: 960px) {
+	.loopring--news--card {
+		width: 45%;
+	}
+}
+
+@media (max-width: 600px) {
+	.loopring--news--card {
+		width: 100%;
+	}
 }

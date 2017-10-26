@@ -9,4 +9,12 @@
 .loopring--primary--team--container {
 	display: flex;
 	margin-top: 65px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@media (max-width: 960px) {
+	.loopring--primary--team {
+		padding-bottom: 0;
+	}
 }

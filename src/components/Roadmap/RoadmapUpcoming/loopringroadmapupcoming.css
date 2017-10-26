@@ -1,6 +1,6 @@
 .loopring--roadmap--upcoming {
 	background-color: #ededed;
-	padding: 100px 0 60px 0;
+	padding: 60px 0;
 }
 
 .loopring--roadmap--upcoming--container {
@@ -18,4 +18,5 @@
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }

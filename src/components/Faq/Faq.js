@@ -6,8 +6,13 @@ import Footer from '../Footer/Footer';
 import './loopringfaq.css';
 
 const Faq = () => {
-	let questions = faqData.map(question => {
-		return <Question title={question.title} answer={question.answer} key={question.id} />;
+	let questions = faqData.map((question, index) => {
+		let open = false;
+		if (index === 0) {
+			open = true;
+		}
+
+		return <Question title={question.title} answer={question.answer} key={question.id} open={open} />;
 	});
 	return (
 		<div className="loopring--faq">

@@ -12,6 +12,12 @@ class Question extends Component {
 		this.handleClick = this.handleClick.bind(this);
 	}
 
+	componentDidMount() {
+		if (this.props.open) {
+			this.setState({ expanded: true });
+		}
+	}
+
 	handleClick() {
 		this.setState({ expanded: !this.state.expanded });
 	}

@@ -1,5 +1,6 @@
 .loopring--roadmap--completed {
 	background-color: #f7f7f7;
+	padding: 60px 0;
 }
 
 .loopring--roadmap--completed--container {
@@ -16,4 +17,5 @@
 .loopring--roadmap--completed--inner--container {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }

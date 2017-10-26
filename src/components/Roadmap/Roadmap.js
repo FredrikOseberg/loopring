@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import RoadmapUpcoming from './RoadmapUpcoming/RoadmapUpcoming';
 import RoadmapCompleted from './RoadmapCompleted/RoadmapCompleted';
 import News from './News/News.js';
+import Footer from '../Footer/Footer';
 import './loopringroadmap.css';
 
 const Roadmap = () => (
@@ -11,6 +12,7 @@ const Roadmap = () => (
 		<News />
 		<RoadmapUpcoming />
 		<RoadmapCompleted />
+		<Footer />
 	</div>
 );
 

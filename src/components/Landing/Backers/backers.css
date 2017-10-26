@@ -1,7 +1,16 @@
 .loopring--backers {
-	height: 100vh;
 	background-color: #fdfdfd;
 	padding: 60px 0;
+}
+
+.loopring--backers--container {
+	width: 80%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.loopring--backers img {
+	max-width: 300px;
 }
 
 .loopring--backers--header {

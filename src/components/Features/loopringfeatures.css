@@ -25,3 +25,15 @@
 	justify-content: center;
 	padding-top: 30px;
 }
+
+@media (max-width: 840px) {
+	.loopring--featurebox {
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+	.loopring--featurebox {
+		flex-basis: 100%;
+	}
+}

@@ -8,7 +8,9 @@ const SimplePersonCard = props => (
 				<img src={props.img} alt={props.name} />
 				<h2>{props.name}</h2>
 			</div>
-			<div className="simple--person--card--work--experience">
+		</div>
+		<div className="simple--person--card--work--experience">
+			<div className="simple--person--card--work--experience--container">
 				<div className="simple--person--card--work--experience--header">
 					<i className="material-icons">work</i>
 					<h4>Work Experience</h4>
