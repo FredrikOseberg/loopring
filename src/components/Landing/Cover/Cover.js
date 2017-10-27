@@ -11,10 +11,19 @@ class Cover extends Component {
 		};
 
 		this.handleWhitepaperClick = this.handleWhitepaperClick.bind(this);
+		this.handleLearnMoreClick = this.handleLearnMoreClick.bind(this);
 	}
 
 	handleWhitepaperClick() {
 		this.setState({ clicked: !this.state.clicked });
+	}
+
+	handleLearnMoreClick() {
+		const el = document.querySelector('#hiw');
+		el.scrollIntoView({
+			behavior: 'smooth',
+			block: 'start'
+		});
 	}
 
 	render() {
@@ -79,7 +88,12 @@ class Cover extends Component {
 									</li>
 								</ul>
 
-								<button className="loopring--landing--information--box--button">Learn More</button>
+								<button
+									className="loopring--landing--information--box--button"
+									onClick={this.handleLearnMoreClick}
+								>
+									Learn More
+								</button>
 							</div>
 						</div>
 					</div>
