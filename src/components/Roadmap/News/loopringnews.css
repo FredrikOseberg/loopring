@@ -25,3 +25,9 @@
 	width: 100%;
 	justify-content: center;
 }
+
+.@media(max-width: 600px) {
+	.loopring--news {
+		padding-top: 52px;
+	}
+}

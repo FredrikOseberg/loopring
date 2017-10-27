@@ -8,7 +8,7 @@
 
 .loopring--primary--team--container {
 	display: flex;
-	margin-top: 65px;
+	padding-top: 60px;
 	flex-wrap: wrap;
 	justify-content: center;
 }

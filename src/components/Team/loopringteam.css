@@ -1,10 +1,16 @@
 .loopring--team {
 	height: 100%;
-	margin-top: 78px;
+	padding-top: 78px;
 	background-color: #f7f7f7;
 }
 
 .loopring--team--container {
 	width: 80%;
 	margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+	.loopring--team {
+		padding-top: 52px;
+	}
 }

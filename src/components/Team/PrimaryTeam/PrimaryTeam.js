@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import teamData from '../../../teamData';
 import PersonCard from '../PersonCard/PersonCard';
 import './loopringprimaryteam.css';
@@ -21,7 +20,6 @@ const PrimaryTeam = () => {
 		<div className="loopring--primary--team">
 			<div className="loopring--team--container">
 				<div className="loopring--primary--team--header">
-					<HeaderIcon icon="people" />
 					<h1>Team</h1>
 				</div>
 				<div className="loopring--primary--team--container">{team}</div>

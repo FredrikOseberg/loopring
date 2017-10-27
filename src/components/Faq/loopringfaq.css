@@ -24,3 +24,10 @@
 .loopring--faq--inner--container .loopring--faq--question:last-child {
 	border-bottom: none;
 }
+
+@media (max-width: 600px) {
+	.loopring--faq {
+		padding-top: 52px;
+	}
+}
+

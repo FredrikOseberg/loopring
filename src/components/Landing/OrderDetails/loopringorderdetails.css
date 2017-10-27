@@ -9,7 +9,7 @@
 }
 
 .orderdetails--card--order--blue {
-	background-color: #5181c7;
+	background-color: #465fec;
 }
 
 .orderdetails--card--order--container {
@@ -131,4 +131,16 @@
 	width: 70%;
 	background-color: #fff;
 	height: 100%;
+}
+
+@media (max-width: 600px) {
+	.orderdetails--card--order {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.orderdetails--card--order--header--information p {
+		display: none;
+	}
 }
