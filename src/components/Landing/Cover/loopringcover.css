@@ -194,7 +194,10 @@
 		text-align: left;
 	}
 	.loopring--landing--information--box {
-		margin: 30px 0;
+		margin: 30px auto;
+	}
+	.loopring--landing--information--box--container {
+		display: block;
 	}
 }
 
