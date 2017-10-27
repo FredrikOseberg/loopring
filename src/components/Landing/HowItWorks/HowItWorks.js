@@ -5,7 +5,7 @@ import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import './howitworks.css';
 
 const HowItWorks = () => (
-	<div className="landing--hiw">
+	<div className="landing--hiw" id="hiw">
 		<div className="landing--hiw--container">
 			<div className="landing--hiw--header">
 				<h1>How It Works</h1>
