@@ -56,7 +56,11 @@ class PersonCard extends Component {
 						</div>
 						<ul className="person--card--work--experience--list">
 							{this.props.experiences.map((experience, index) => {
-								if (index < cap) return <li key={experience.id}>{experience.job}</li>;
+								if (index < cap) {
+									return <li key={experience.id}>{experience.job}</li>;
+								} else {
+									return '';
+								}
 							})}
 						</ul>
 						{expandButton}

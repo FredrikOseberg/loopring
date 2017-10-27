@@ -4,7 +4,7 @@ import './loopringnewscard.css';
 const NewsCard = props => (
 	<div className="loopring--news--card">
 		<div className="loopring--news--card--container">
-			<img src={props.img} alt="News image" />
+			<img src={props.img} alt="News" />
 			<div className="loopring--news--card--border" />
 			<div className="loopring--news--card--information">
 				<h2>{props.name}</h2>
