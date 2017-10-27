@@ -8,7 +8,6 @@ const HowItWorks = () => (
 	<div className="landing--hiw">
 		<div className="landing--hiw--container">
 			<div className="landing--hiw--header">
-				<HeaderIcon icon="settings" />
 				<h1>How It Works</h1>
 				<div className="landing--hiw--inner--container">
 					<div className="landing--hiw--connecting--border" />

@@ -14,7 +14,6 @@ const Backers = () => (
 	<div className="loopring--backers">
 		<div className="loopring--backers--container">
 			<div className="loopring--backers--header">
-				<HeaderIcon icon="check" />
 				<h1>Backers</h1>
 				<div className="loopring--backers--section--one">
 					<img src={capital} alt="Backer" className="loopring--backers--img" />
