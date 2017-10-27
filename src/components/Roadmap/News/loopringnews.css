@@ -3,7 +3,7 @@
 	padding-bottom: 60px;
 	min-height: 100vh;
 	background: linear-gradient(rgba(24, 55, 238, 0.8), rgba(24, 55, 232, 0.8)),
-		url(/static/media/congruent_pentagon.c0864a9f.png);
+		url('../../../img/bgs/congruent_pentagon.png');
 }
 
 .loopring--news--container {
