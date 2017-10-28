@@ -7,7 +7,6 @@ import jing from '../../../img/backers/jing.png';
 import logo3 from '../../../img/backers/logo3.png';
 import neo_en from '../../../img/backers/neo_en.png';
 import qtum_en from '../../../img/backers/qtum_en.png';
-import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import './backers.css';
 
 const Backers = () => (

@@ -1,7 +1,6 @@
 import React from 'react';
 import loopring from '../../../img/logo.png';
 import OrderDetails from '../OrderDetails/OrderDetails';
-import HeaderIcon from '../../Misc/HeaderIcon/HeaderIcon';
 import './howitworks.css';
 
 const HowItWorks = () => (
